@@ -6,14 +6,23 @@ export default function Home() {
       {/* Hero */}
       <section className="evlab-hero">
         <h1>
-          ADB Unlock for <span className="accent">BYD & Denza</span> Vehicles
+          ADB Enablement for <span className="accent">BYD & Denza</span> Vehicles
         </h1>
         <p className="hero-sub">
-          Remote QR code unlock for DiLink 5.0+ systems. Enable ADB in under 5 minutes — no dealer visit, no firmware risk.
+          Remote assistance for BYD/Denza owners who wish to enable Android Debug Bridge (ADB) on their infotainment system. Infotainment configuration only — does not modify vehicle firmware, safety systems, or vehicle-control hardware.
         </p>
         <a href="https://shop.baolab.au/products/adb-unlocking-service" target="_blank" rel="noopener noreferrer" className="btn-primary">
           Unlock Your BYD Now
         </a>
+      </section>
+
+      {/* Non-affiliation disclaimer */}
+      <section style={{ maxWidth: 800, margin: "0 auto", padding: "20px 20px 0" }}>
+        <div style={{ background: "rgba(255,107,107,0.06)", border: "1px solid rgba(255,107,107,0.15)", borderRadius: 8, padding: "12px 16px" }}>
+          <p style={{ color: "#888", fontSize: "0.8rem", margin: 0, lineHeight: 1.6 }}>
+            <strong style={{ color: "#ff6b6b" }}>Important notice:</strong> This is an independent aftermarket infotainment configuration service. It is not affiliated with, endorsed by, authorised by, or approved by BYD, DENZA, BYD Australia, any BYD/DENZA dealer, or any authorised service centre.
+          </p>
+        </div>
       </section>
 
       {/* How It Works */}
@@ -25,7 +34,7 @@ export default function Home() {
           <li>The hidden engineering menu will appear with a <strong>QR code</strong></li>
           <li>Select <strong>Scan with WeCom</strong></li>
           <li>Take a clear photo of the QR code and send it to us</li>
-          <li>We unlock your ADB remotely — <span className="accent">done in under 5 minutes</span></li>
+          <li>We enable your ADB remotely — <span className="accent">done in under 5 minutes</span></li>
         </ol>
       </section>
 
@@ -47,7 +56,7 @@ export default function Home() {
 
       {/* What You Can Do */}
       <section className="evlab-section">
-        <h2>What You Can Do After Unlocking</h2>
+        <h2>What You Can Do After Enabling ADB</h2>
         <div className="app-grid">
           {[
             { name: "DiPlus", desc: "Quad-view dashcam, sentry mode, loop recording" },
@@ -81,25 +90,25 @@ export default function Home() {
           </div>
           <div className="price-card featured">
             <div className="badge">Popular</div>
-            <h3>Express</h3>
+            <h3>Priority Scheduling</h3>
             <div className="price">$169 <span>AUD</span></div>
             <ul>
               <li>Everything in Standard</li>
-              <li>Priority queue</li>
-              <li>Same-day guaranteed</li>
+              <li>Priority scheduling</li>
+              <li>Usually same-day</li>
             </ul>
             <a href="https://shop.baolab.au/products/adb-unlocking-service" target="_blank" rel="noopener noreferrer" className="btn-primary">
               Get Started
             </a>
           </div>
           <div className="price-card">
-            <h3>Engineer</h3>
+            <h3>Advanced Technical Support</h3>
             <div className="price">$300 <span>AUD</span></div>
             <ul>
-              <li>Everything in Express</li>
-              <li>1-on-1 with engineer</li>
-              <li>App install help</li>
-              <li>Partnership opportunity</li>
+              <li>Everything in Priority</li>
+              <li>1-on-1 technical assistance</li>
+              <li>App installation guidance</li>
+              <li>Ongoing support</li>
             </ul>
             <a href="https://shop.baolab.au/products/adb-unlocking-service" target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Get Started
@@ -113,9 +122,9 @@ export default function Home() {
         <h2>Frequently Asked Questions</h2>
         <div className="faq-grid">
           {[
-            { q: "Will this void my warranty?", a: "Dealers cannot detect ADB unlock during normal service. If concerned, uninstall third-party apps before visiting the dealer." },
-            { q: "Does ADB stay on after a software update?", a: "Yes. ADB remains enabled through OTA updates. Only a factory reset will revoke it." },
-            { q: "Is this reversible?", a: "Yes. A factory reset returns the system to stock." },
+            { q: "Will this void my warranty?", a: "BYD or a dealer may treat ADB enablement as a modification. We cannot guarantee warranty safety. If concerned, uninstall third-party apps before visiting the dealer." },
+            { q: "Does ADB stay on after a software update?", a: "ADB usually remains enabled through OTA updates, but we cannot guarantee this. Only a factory reset will revoke it." },
+            { q: "Is this reversible?", a: "A factory reset returns the system to stock, but may not reverse all effects of installed apps." },
             { q: "Do I need to be near the car?", a: "Yes. You need access to the infotainment screen to generate the QR code, and the car must have an internet connection." },
             { q: "How long does it take?", a: "The entire process takes under 5 minutes. We process the QR code remotely in real-time." },
           ].map((faq) => (
@@ -129,10 +138,10 @@ export default function Home() {
 
       {/* CTA */}
       <section className="evlab-section evlab-cta">
-        <h2>Ready to Unlock Your BYD?</h2>
-        <p className="section-sub">Trusted by customers in Australia, UK, Croatia, Turkey, Ukraine, Qatar, Egypt, Austria, Brazil, Thailand, and more.</p>
+        <h2>Ready to Enable ADB on Your BYD?</h2>
+        <p className="section-sub">Trusted by customers in Australia, UK, Croatia, Turkey, Qatar, Egypt, Austria, Brazil, Thailand, and more.</p>
         <a href="https://shop.baolab.au/products/adb-unlocking-service" target="_blank" rel="noopener noreferrer" className="btn-primary">
-          Unlock Your BYD Now
+          Enable ADB on Your BYD
         </a>
       </section>
 
